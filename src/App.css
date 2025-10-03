@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  text-align: center;
+}
+.btn button{
+  background-color: rgb(13, 13, 156);
+  color: white;
+  
+}
+.btn button:hover{
+  background-color:  rgb(9, 2, 81);
+  color: white;
+}
+
+
+
+.btn{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+ 
+}
+
+
+
+#mybox{
+  width: 90vh;
+  
+}
+alert{
+  background-color: #61dafb;
+}
+  
+
